@@ -1,0 +1,50 @@
+.start{
+    text-align: center;
+    background-image:url(b3.webp) ;
+    height:700px;
+    width: 100%;
+    margin-left: 70px;
+    background-repeat: no-repeat;
+}
+.btn2{
+    position: absolute;
+    color: whitesmoke;
+    background-color: aqua;
+    box-shadow: 2px 2px 2px 1px rgba(36, 13, 13, 0.2);
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 5px 5px 10px 10px;
+    
+}
+.card{
+    /* width: 300px; */
+    background-color: antiquewhite;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(12, 8, 8, 0.2);
+    border-radius: 10px;
+}
+
+.card img{
+    height: 120px;
+}
+.card-title{
+    color: rgb(20, 156, 156);
+}
+.area{
+    color: rgb(27, 112, 112);
+}
+.hr{
+    color: rgb(15, 117, 117);
+    padding: 10px 5px ;
+}
+.info{
+    display: flex;
+}
+@media only screen and (max-width: 720px) {
+    .start {
+     margin-left: 0;
+    }
+    .info{
+        flex-wrap: wrap;
+    }
+  }
